@@ -8,11 +8,11 @@ class Shoe
     @brand = brand
     i = 0
     while i < BRANDS.length
-    BRANDS.each do |shoe_brand|
-      if BRANDS[i] != shoe_brand
-        BRANDS << brand
+      BRANDS.each do |shoe_brand|
+        if BRANDS[i] != shoe_brand
+          BRANDS << brand
+        end
       end
-    end
   end
 
   def cobble
