@@ -12,6 +12,7 @@ class Shoe
         if BRANDS[i] != shoe_brand
           BRANDS << brand
         end
+        i += 1
       end
     end
   end
